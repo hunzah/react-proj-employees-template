@@ -8,13 +8,14 @@ const EmployeesAddForm = () => {
                 className="add-form d-flex">
                 <input type="text"
                        className="form-control new-post-label"
-                       placeholder="What's his name?" />
+                       placeholder="What's his name?"/>
                 <input type="number"
                        className="form-control new-post-label"
-                       placeholder="Salary $?" />
+                       placeholder="Salary $?"/>
 
                 <button type="submit"
-                        className="btn btn-outline-light">Добавить</button>
+                        className="btn btn-outline-light">Добавить
+                </button>
             </form>
         </div>
     )
